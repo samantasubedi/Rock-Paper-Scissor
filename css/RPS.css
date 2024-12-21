@@ -1,0 +1,62 @@
+.images {
+  display: flex;
+  justify-content: center;
+}
+.rock,
+.paper,
+.scissor {
+  height: 150px;
+  width: 150px;
+  cursor: pointer;
+}
+.box {
+  display: flex;
+  justify-content: center;
+}
+
+.box1,
+.box2 {
+  height: 250px;
+  width: 250px;
+  border: 5px solid rgb(9, 2, 2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+.you,
+.computer {
+  font-size: 40px;
+  background-color: blanchedalmond;
+  color: rgb(4, 154, 117);
+  padding: 10px;
+  height: fit-content;
+  width: fit-content;
+  border-radius: 25px;
+}
+.c {
+  display: flex;
+  justify-content: center;
+}
+.choice {
+  font-size: 40px;
+  font-style: italic;
+  color: rgb(150, 3, 3);
+}
+.result {
+  height: fit-content;
+  width: fit-content;
+  font-size: 80px;
+  color: rgb(43, 71, 231);
+  font-weight: bold;
+
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  background-color: rgb(195, 224, 224);
+}
+.rel {
+  display: flex;
+  justify-content: center;
+}
